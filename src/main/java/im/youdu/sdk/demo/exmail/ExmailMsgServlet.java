@@ -76,7 +76,7 @@ public class ExmailMsgServlet  extends HttpServlet {
         }
     }
 
-    //TODO 这里只是一段示例伪代码, 具体的请按照您企业邮箱服务商提供的接口规范来实现
+    //TODO 这里只是一段示例代码, 具体实现请参照您企业邮箱服务商的接口规范
     private void parseRequest(HttpServletRequest req) throws Exception{
         String msgType = req.getParameter("msgType");
         if(null == msgType){
