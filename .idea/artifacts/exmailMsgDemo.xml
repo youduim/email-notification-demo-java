@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="ExmailExample:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/ExmailExample_war_exploded</output-path>
+  <artifact type="exploded-war" name="exmailMsgDemo">
+    <output-path>$PROJECT_DIR$/out/artifacts/exmailMsgDemo</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="exmailmsgdemo/web/Web" />
       <element id="directory" name="WEB-INF">

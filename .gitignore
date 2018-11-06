@@ -1,3 +1,4 @@
 *.class
 web/WEB-INF/classes/
 out/
+.idea/vcs.xml

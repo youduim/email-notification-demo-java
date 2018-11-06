@@ -6,7 +6,7 @@
     
     <servlet>
         <servlet-name>ExmailMsgServlet</servlet-name>
-        <servlet-class>im.youdu.demo.exmail.ExmailMsgServlet</servlet-class>
+        <servlet-class>im.youdu.sdk.demo.exmail.ExmailMsgServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ExmailMsgServlet</servlet-name>
