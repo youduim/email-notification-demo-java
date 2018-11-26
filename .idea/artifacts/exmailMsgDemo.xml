@@ -1,13 +1,19 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="exmailMsgDemo">
-    <output-path>$PROJECT_DIR$/out/artifacts/exmailMsgDemo</output-path>
-    <root id="root">
-      <element id="javaee-facet-resources" facet="exmailmsgdemo/web/Web" />
+  <artifact type="war" build-on-make="true" name="exmailmsgdemo">
+    <output-path>$PROJECT_DIR$/out</output-path>
+    <root id="archive" name="exmailmsgdemo.war">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="exmailmsgdemo" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/ydsdk-3.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.17.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/log4j-api-2.11.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/log4j-core-2.11.1.jar" />
+        </element>
       </element>
+      <element id="javaee-facet-resources" facet="exmailmsgdemo/web/Web" />
     </root>
   </artifact>
 </component>
